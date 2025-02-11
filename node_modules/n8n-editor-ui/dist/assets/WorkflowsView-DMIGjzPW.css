@@ -1,0 +1,323 @@
+/* BEM support Func
+ -------------------------- */
+/* Transition
+-------------------------- */
+/* Color
+-------------------------- */
+/* Link
+-------------------------- */
+/* Border
+-------------------------- */
+/* Outline
+-------------------------- */
+/* Box shadow
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Typography
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* MessageBox
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popup
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Timeline
+--------------------------*/
+/* Backtop
+--------------------------*/
+/* Link
+--------------------------*/
+/* Calendar
+--------------------------*/
+/* Form
+-------------------------- */
+/* Avatar
+--------------------------*/
+/* Break-point
+--------------------------*/
+/* Break-points
+ -------------------------- */
+/* Scrollbar
+ -------------------------- */
+/* Placeholder
+ -------------------------- */
+/* BEM
+ -------------------------- */
+._cardLink_144hj_123 {
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  padding: 0;
+  align-items: stretch;
+}
+._cardLink_144hj_123:hover {
+  box-shadow: 0 2px 8px rgba(68, 28, 23, 0.1);
+}
+._cardHeading_144hj_133 {
+  font-size: var(--font-size-s);
+  word-break: break-word;
+  padding: var(--spacing-s) 0 0 var(--spacing-s);
+}
+._cardHeading_144hj_133 span {
+  color: var(--color-text-light);
+}
+._cardDescription_144hj_142 {
+  min-height: 19px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 var(--spacing-s) var(--spacing-s);
+}
+._cardActions_144hj_149 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 0 var(--spacing-s) 0 0;
+  cursor: default;
+}
+@media screen and (max-width: 991px) {
+._cardLink_144hj_123 {
+    --card--padding: 0 var(--spacing-s) var(--spacing-s);
+    --card--append--width: 100%;
+    flex-direction: column;
+}
+._cardActions_144hj_149 {
+    width: 100%;
+    padding: 0 var(--spacing-s) var(--spacing-s);
+}
+._cardBadge_144hj_169 {
+    margin-right: auto;
+}
+}/* BEM support Func
+ -------------------------- */
+/* Transition
+-------------------------- */
+/* Color
+-------------------------- */
+/* Link
+-------------------------- */
+/* Border
+-------------------------- */
+/* Outline
+-------------------------- */
+/* Box shadow
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Typography
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* MessageBox
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popup
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Timeline
+--------------------------*/
+/* Backtop
+--------------------------*/
+/* Link
+--------------------------*/
+/* Calendar
+--------------------------*/
+/* Form
+-------------------------- */
+/* Avatar
+--------------------------*/
+/* Break-point
+--------------------------*/
+/* Break-points
+ -------------------------- */
+/* Scrollbar
+ -------------------------- */
+/* Placeholder
+ -------------------------- */
+/* BEM
+ -------------------------- */
+._actionsContainer_1lrl1_123 {
+  display: flex;
+  justify-content: center;
+}
+._easy-ai-workflow-callout_1lrl1_128 {
+  margin-top: var(--spacing-xs);
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-m);
+}
+._easy-ai-workflow-callout_1lrl1_128 ._callout-trailing-content_1lrl1_133 {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-m);
+}
+._emptyStateCard_1lrl1_139 {
+  width: 192px;
+  text-align: center;
+  display: inline-flex;
+  height: 230px;
+}
+._emptyStateCard_1lrl1_139 + ._emptyStateCard_1lrl1_139 {
+  margin-left: var(--spacing-s);
+}
+._emptyStateCard_1lrl1_139:hover svg {
+  color: var(--color-primary);
+}
+._emptyStateCardIcon_1lrl1_152 {
+  font-size: 48px;
+}
+._emptyStateCardIcon_1lrl1_152 svg {
+  width: 48px !important;
+  color: var(--color-foreground-dark);
+  transition: color 0.3s ease;
+}
