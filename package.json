@@ -2,9 +2,9 @@
   "name": "n8n-railway",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "npx n8n"
-  },
+"scripts": {
+  "start": "npm install sqlite3 && npx n8n"
+}
   "dependencies": {
     "n8n": "^1.77.3",
     "sqlite3": "^5.1.7"
